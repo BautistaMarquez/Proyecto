@@ -157,6 +157,22 @@ body {
 	height: 100%;
 	width: 50%;
 }
+
+@media screen and (max-width: 768px){
+	.seccion1{
+		flex-direction: column;
+	}
+	.sec1part1{
+		width: 100%;
+		margin: 10px;
+	}
+	.sec1part2{
+		width: 100%;
+		height: 15%;
+		margin: 20px;
+	}
+}
+
 /* seccion 3*/
 .carta{
 	background-color: #313131;
@@ -224,10 +240,23 @@ body {
 	height: 400px;
 	width: 100%;
 	margin: 10px 0px;
-	
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
+	overflow: hidden;
+}
+.slider{
+	width: 75%;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+.slider .empresas{
+	display: flex;
+	animation: giro 25s linear infinite;
+	-webkit-animation: giro 25s linear infinite;
+	width: 2000px;
 }
 .empresas{
 	display: flex;
@@ -235,30 +264,29 @@ body {
 	align-items: center;
 	height: 200px;
 }
+.slider .elemento{
+	width: 200px;
+}
 .elemento{
 	display: flex;
-	margin: 25px;
+	margin: 0 25px;
 	background-color: #106eea;
-	width: 100px;
 	height: 100px;
 	justify-content: center;
 	align-items: center;
 	border-bottom: 1px solid #313131;
 }
-@media only screen and (max-width: 768px) {
-	.elemento{
-		margin: 10px;
-	}
+.slider .empresas .elemento{
+	width: 100%;
 }
-@media only screen and (max-width: 620px) {
-	.elemento{
-		margin: 12px;
+@keyframes giro {
+	0% {
+		-webkit-transform: translateX(0);
+		transition: translateX(0);
 	}
-	.elem1{
-		display: none;
-	}
-	.elem5{
-		display: none;
+	100% {
+		-webkit-transform: translateX(-1000px);
+		transition: translateX(-1000px);
 	}
 }
 
