@@ -102,6 +102,9 @@ body {
 	font-size: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption{
+		bottom: 280px;
+	}
 	.carousel-caption p {
 		width: 100%;
 	}
@@ -114,7 +117,7 @@ body {
 }
 @media only screen and (max-width: 767px) {
 	.carousel-caption{
-		bottom: 300px;
+		bottom: 320px;
 	}
 	.navbar-nav {
 		text-align: center;
