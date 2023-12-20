@@ -32,7 +32,6 @@ body {
 	font-size: 45px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin-top: 25px;
 }
 .carousel-caption p {
 	width: 60%;
@@ -103,9 +102,6 @@ body {
 	font-size: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.carousel-caption {
-		bottom: 370px;
-	}
 	.carousel-caption p {
 		width: 100%;
 	}
@@ -120,11 +116,8 @@ body {
 	.navbar-nav {
 		text-align: center;
 	}
-	.carousel-caption {
-		bottom: 125px;
-	}
 	.carousel-caption h5 {
-		font-size: 17px;
+		font-size: 40px;
 	}
 	.carousel-caption a {
 		padding: 10px 15px;
