@@ -114,7 +114,7 @@ body {
 }
 @media only screen and (max-width: 767px) {
 	.carousel-caption{
-		bottom: 260px;
+		bottom: 300px;
 	}
 	.navbar-nav {
 		text-align: center;
