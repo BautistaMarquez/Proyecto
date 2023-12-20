@@ -22,7 +22,7 @@ body {
 	min-height: 300px;
 }
 .carousel-caption {
-	bottom: 220px;
+	bottom: 250px;
 	z-index: 2;
 	display: flex;
 	justify-content: center;
@@ -113,6 +113,9 @@ body {
 	}
 }
 @media only screen and (max-width: 767px) {
+	.carousel-caption{
+		bottom: 260px;
+	}
 	.navbar-nav {
 		text-align: center;
 	}
