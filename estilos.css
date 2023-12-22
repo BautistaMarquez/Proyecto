@@ -211,7 +211,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 20vw;
-	height: 90%;
+	height: 95%;
 	border-radius: 5%;
 	background-color: #f1fbff;
 	margin: 20px;
@@ -277,14 +277,10 @@ body {
 @media screen and (max-width: 990px){
 	.partes{
 		flex-direction: column;
-		height: 90%;
+		height: 95%;
 	}
 	.trabajos{
-		height: 250vh;
-	}
-	.parte{
-		height: 120%;
-		width: 45vw;
+		height: 220vh;
 	}
 }
 
