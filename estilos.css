@@ -192,10 +192,11 @@ body {
 /* seciion 2*/
 .trabajos{
 	height: 100vh;
-	background-color: #313131;
-	padding: 25px;
+	background-color: #106eea;
+	padding: 5px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 }
 .partes{
@@ -211,13 +212,32 @@ body {
 	flex-direction: column;
 	width: 20vw;
 	height: 90%;
+	border-radius: 5%;
 	background-color: #f1fbff;
-	margin: 2px;
+	margin: 20px;
+	cursor: pointer;
+	transition: 0.75s ease-in-out;
+	background-color: rosybrown;
+}
+.parte:hover{
+	background-color: #313131;
+	box-sizing: border-box;
+}
+.parte:hover .dibujo{
+		background-color: #c5d9e0;
+}
+.parte:hover .textdibu{
+	color: #313131;
+}
+.parte:hover .laburo{
+	display: flex;
+}
+.parte:hover .parte2{
+	background-color: #c5d9e0;
 }
 .parte1{
 	height: 80%;
 	width: 100%;
-	background-color: aquamarine;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -232,19 +252,34 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	cursor: pointer;
+	transition: 0.75s ease-in-out;
 }
-.laburo1{
+.laburo{
 	color: #c5d9e0;
+	margin-top: 35px;
+	display: none;
+	transition: 0.75s ease-in-out;
 }
 .textdibu{
 	color: #c5d9e0;
 }
 
 .parte2{
-	height: 20%;
-	width: 100%;
-	background-color: #c5d9e0;
+	height: 1%;
+	width: 50%;
+	background-color: #313131;
+	transition: 0.75s ease-in-out;
+	border-radius: 10%;
+}
+
+
+@media screen and (max-width: 990px){
+	.partes{
+		flex-direction: column;
+	}
+	.trabajos{
+		height: 250vh;
+	}
 }
 
 /* seccion 3*/
