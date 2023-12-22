@@ -277,9 +277,14 @@ body {
 @media screen and (max-width: 990px){
 	.partes{
 		flex-direction: column;
+		height: 90%;
 	}
 	.trabajos{
 		height: 250vh;
+	}
+	.parte{
+		height: 120%;
+		width: 45vw;
 	}
 }
 
