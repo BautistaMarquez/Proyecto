@@ -258,10 +258,11 @@ body {
 	color: #c5d9e0;
 	margin-top: 35px;
 	display: none;
-	transition: 0.75s ease-in-out;
+	transition: 1.25s ease-in-out;
 }
 .textdibu{
 	color: #c5d9e0;
+	transition: 1.25s ease-in-out;
 }
 
 .parte2{
