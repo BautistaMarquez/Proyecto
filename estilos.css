@@ -213,12 +213,11 @@ body {
 	width: 20vw;
 	height: 95%;
 	border-radius: 5%;
-	background-color: #f1fbff;
+
 	margin: 20px;
 	padding: 5px;
 	cursor: pointer;
 	transition: 0.75s ease-in-out;
-	background-color: rosybrown;
 	text-align: center;
 }
 .parte:hover{
