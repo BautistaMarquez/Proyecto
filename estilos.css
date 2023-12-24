@@ -190,9 +190,14 @@ body {
 	}
 }
 /* seciion 2*/
+.posibleTitulo{
+	margin: 10px;
+	color: #c5d9e0;
+}
 .trabajos{
 	height: 90vh;
-	background-color: #106eea;
+	background-image: url(imagenes/valla-estano-galvanizado-azul-forrado-fondo-textura-metal.jpg);
+	background-size: 1000px;
 	padding: 5px;
 	display: flex;
 	justify-content: center;
@@ -298,6 +303,8 @@ body {
 	}
 	.trabajos{
 		height: 200vh;
+		background-color: #106eea;
+		background-image: none;
 	}
 }
 
