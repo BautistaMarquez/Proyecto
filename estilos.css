@@ -325,8 +325,7 @@ body {
 	}
 	.trabajos{
 		height: 200vh;
-		background-color: #ff9f1a;
-		background-image: none;
+		background-size: 2200px;
 	}
 	.dibujo{
 		height: 55%;
