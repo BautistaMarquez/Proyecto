@@ -5,6 +5,7 @@
 body {
 	background: #3d3d3d;
 	color: #fff;
+	overflow-x: hidden;
 }
 .textlogo{
 	color: #ff9f1a;
@@ -213,7 +214,7 @@ body {
 	text-shadow: 1px #3d3d3d;
 }
 .trabajos{
-	height: 90vh;
+	height: 100vh;
 	background-image: url(imagenes/rojo-marron-pared-ladrillo-vintage-estructura-decaida-horizontal-amplia-brickwall-fondo-textura-sucia-pared-pared-ladrillo-rojo-fachada-retro-casa-resumen-bandera-web-panoramica-superficie-stonewall.jpg);
 	background-size: 100%;
 	padding: 5px;
@@ -583,3 +584,64 @@ body {
 	width: 50%;
 	margin: 1px;
 }
+/* animaciones JS*/
+
+.seccion1{
+	transform: translateX(-300px);
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+.aparecer1{
+	transform: translateX(0px);
+	opacity: 1;
+}
+.seccion2{
+	transform: scale(0.5);
+	opacity: 0;
+	transition: all 1.4s ease-in-out;
+}
+.aparecer2{
+	transform: scale(1);
+	opacity: 1;
+}
+.seccion3{
+	transform: translateX(300px);
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+.aparecer3{
+	transform: translateX(0px);
+	opacity: 1;
+	z-index: 2;
+}
+.seccion4{
+	transform: translateY(-150px);
+	opacity: 0;
+	transition: all 1.3s ease-out;
+	z-index: 1;
+}
+.aparecer4{
+	transform: translateY(0px);
+	opacity: 1;
+}
+.seccion5{
+	rotate: 180deg;
+	transform: scale(0);
+	opacity: 0;
+	transition: all 1.5s ease-in-out;
+}
+.aparecer5{
+	rotate: 0deg;
+	transform: scale(1);
+	opacity: 1;
+}
+.seccion6{
+	transform: scale(0.2);
+	opacity: 0;
+	transition: all 1.2s ease-in-out;
+}
+.aparecer6{
+	transform: scale(1);
+	opacity: 1;
+}
+/* */
