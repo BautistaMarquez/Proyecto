@@ -173,8 +173,9 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	height: 500px;
+	height: 550px;
 	width: 100%;
+	margin-bottom: 25px;
 }
 .sec1part1{
 	height: 100%;
@@ -218,7 +219,8 @@ body {
 	height: 100vh;
 	background-image: url(imagenes/rojo-marron-pared-ladrillo-vintage-estructura-decaida-horizontal-amplia-brickwall-fondo-textura-sucia-pared-pared-ladrillo-rojo-fachada-retro-casa-resumen-bandera-web-panoramica-superficie-stonewall.jpg);
 	background-size: 100%;
-	padding: 5px;
+	margin-top: 50px;
+	padding: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -606,5 +608,15 @@ body {
 	transform: scale(1);
 	opacity: 1;
 	z-index: 2;
+}
+.seccion6{
+	transform: scale(0.3);
+	opacity: 0;
+	transition: all 1.5s ease-in-out;
+	transition-delay: 0.1s;
+}
+.aparecer6{
+	transform: scale(1);
+	opacity: 1;
 }
 /* */
