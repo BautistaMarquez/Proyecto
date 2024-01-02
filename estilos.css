@@ -145,6 +145,16 @@ body {
 	}
 }
 /* COMIENZO DE PAGINA */
+.wsp{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	height: 70px;
+	width: 70px;
+	z-index: 1;
+	border-radius: 50%;
+	cursor: pointer;
+}
 /* seccion 1*/
 .posible{
 	color: #c5d9e0;
