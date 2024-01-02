@@ -12,7 +12,7 @@ const observador1 = new IntersectionObserver((entries)=>{
         entry.target.classList.toggle('aparecer1', entry.isIntersecting);
     });
 },
-    {threshold: 0.46}
+    {threshold: 0.5}
 );
 
 section1.forEach((seccion)=> observador1.observe(seccion));
