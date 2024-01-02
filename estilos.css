@@ -589,62 +589,22 @@ body {
 .seccion1{
 	transform: scale(0.5);
 	opacity: 0;
-	transition: all 1.2s ease-in-out;
-	transition-delay: 0.2s;
+	transition: all 1.3s ease-in-out;
+	transition-delay: 0.1s;
 }
 .aparecer1{
-	transform: scale(1);
-	opacity: 1;
-}
-.seccion2{
-	transform: scale(0.5);
-	opacity: 0;
-	transition: all 1.2s ease-in-out;
-	transition-delay: 0.2s;
-}
-.aparecer2{
 	transform: scale(1);
 	opacity: 1;
 }
 .seccion3{
 	transform: scale(0.2);
 	opacity: 0;
-	transition: all 1s ease-in-out;
-	transition-delay: 0.2s;
+	transition: all 1.2s ease-in-out;
+	transition-delay: 0.1s;
 }
 .aparecer3{
 	transform: scale(1);
 	opacity: 1;
 	z-index: 2;
-}
-.seccion4{
-	transform: scale(0.2);
-	opacity: 0;
-	transition: all 1s ease-in-out;
-	transition-delay: 0.2s;
-}
-.aparecer4{
-	transform: scale(1);
-	opacity: 1;
-}
-.seccion5{
-	transform: scale(0.2);
-	opacity: 0;
-	transition: all 1s ease-in-out;
-	transition-delay: 0.2s;
-}
-.aparecer5{
-	transform: scale(1);
-	opacity: 1;
-}
-.seccion6{
-	transform: scale(0.2);
-	opacity: 0;
-	transition: all 1s ease-in-out;
-	transition-delay: 0.2s;
-}
-.aparecer6{
-	transform: scale(1);
-	opacity: 1;
 }
 /* */
