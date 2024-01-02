@@ -587,13 +587,13 @@ body {
 /* animaciones JS*/
 
 .seccion1{
-	transform: translateX(-300px);
+	transform: scale(0.5);
 	opacity: 0;
-	transition: all 0.8s ease-in-out;
+	transition: all 1.2s ease-in-out;
 	transition-delay: 0.2s;
 }
 .aparecer1{
-	transform: translateX(0px);
+	transform: scale(1);
 	opacity: 1;
 }
 .seccion2{
@@ -607,36 +607,33 @@ body {
 	opacity: 1;
 }
 .seccion3{
-	transform: translateX(300px);
+	transform: scale(0.2);
 	opacity: 0;
-	transition: all 0.8s ease-in-out;
+	transition: all 1s ease-in-out;
 	transition-delay: 0.2s;
 }
 .aparecer3{
-	transform: translateX(0px);
+	transform: scale(1);
 	opacity: 1;
 	z-index: 2;
 }
 .seccion4{
-	transform: translateY(-150px);
+	transform: scale(0.2);
 	opacity: 0;
-	transition: all 1.1s ease-out;
-	z-index: 1;
+	transition: all 1s ease-in-out;
 	transition-delay: 0.2s;
 }
 .aparecer4{
-	transform: translateY(0px);
+	transform: scale(1);
 	opacity: 1;
 }
 .seccion5{
-	rotate: 180deg;
-	transform: scale(0);
+	transform: scale(0.2);
 	opacity: 0;
-	transition: all 1.3s ease-in-out;
+	transition: all 1s ease-in-out;
 	transition-delay: 0.2s;
 }
 .aparecer5{
-	rotate: 0deg;
 	transform: scale(1);
 	opacity: 1;
 }
